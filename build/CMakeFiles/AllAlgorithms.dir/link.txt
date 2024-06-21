@@ -1,0 +1,3 @@
+"D:\Program Files\Cmake\bin\cmake.exe" -E rm -f CMakeFiles\AllAlgorithms.dir/objects.a
+D:\Compilers\Mingw\mingw64\bin\ar.exe qc CMakeFiles\AllAlgorithms.dir/objects.a @CMakeFiles\AllAlgorithms.dir\objects1.rsp
+D:\Compilers\Mingw\mingw64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\AllAlgorithms.dir/objects.a -Wl,--no-whole-archive -o AllAlgorithms.exe -Wl,--out-implib,libAllAlgorithms.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\AllAlgorithms.dir\linkLibs.rsp
